@@ -1,0 +1,36 @@
+﻿.slider{
+display:flex;
+position:relative;
+ background:#fff;
+  max-width:80%;
+ overflow:hidden;
+}
+.slider-items{
+height:300px;
+display:flex;
+justify-content:center;
+}
+.buttons{
+  position:absolute;
+}
+.controlls{
+  position:absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 64px;
+  height: 12px;
+  margin: 0 auto;
+  bottom:0;
+  right: 450px;
+}
+.controll-toggle{
+  text-decoration:none;
+  cursor: pointer;
+  padding: 0;
+  width: 6px;
+  height: 6px;
+  border: 3px solid transparent;
+  border-radius: 6px;
+  background-color: #bec2c7;
+}
