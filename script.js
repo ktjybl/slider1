@@ -8,7 +8,7 @@ const dots=document.querySelectorAll('.controll-toggle');
 let slideIndex=0;
 let width;
 let count=0;
-let slideToShow=1;
+let slideToShow=4;
 let responsive=[{
   breakpoint:1024,
   slideToShow:3
